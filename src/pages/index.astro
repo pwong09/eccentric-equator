@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Navigation from '../components/Navigation.astro';
 ---
 
 <Layout title="Hello World">
@@ -34,11 +35,9 @@ import Card from '../components/Card.astro';
 				</linearGradient>
 			</defs>
 		</svg>
-		<a href="/">Home</a>
-<a href="/about/">About</a>
-<a href="/blog/">Blog</a>
-<h1>Welcome to <span class="text-gradient">Hello World</span></h1>
-<h2>... and my new Astro site!</h2>
+		<Navigation />
+		<h1>Welcome to <span class="text-gradient">Hello World</span></h1>
+		<h2>... and my new Astro site!</h2>
 		<p class="instructions">
 			To get started, open the directory <code>src/pages</code> in your project.<br />
 			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.

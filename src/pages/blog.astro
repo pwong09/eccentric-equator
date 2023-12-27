@@ -2,6 +2,8 @@
 import '../styles/global.css';
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+
+import Navigation from '../components/Navigation.astro';
 ---
 
 <Layout title="My Blog">
@@ -34,12 +36,10 @@ import Card from '../components/Card.astro';
 				</linearGradient>
 			</defs>
 		</svg>
-<a href="/">Home</a>
-<a href="/about/">About</a>
-<a href="/blog/">Blog</a>
 
-<h1>My Blog</h1>
-<h2>... and my new Astro site!</h2>
+		<Navigation />
+		<h1>My Blog</h1>
+		<h2>... and my new Astro site!</h2>
 		<h1>Welcome to <span class="text-gradient">My Blog</span></h1>
 		<p>
 			This is where I will post about my journey learning Astro.
