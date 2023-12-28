@@ -50,6 +50,16 @@ h1 {
   background-position: 0%;
 }
 
+a {
+  color: #ff9776;
+}
+
+a:hover {
+  background: #fff;
+  color: #4c1d95;
+  text-decoration: none;
+}
+
 /* nav styles */
 .hamburger {
   padding-right: 20px;
